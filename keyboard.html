@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: sans-serif;
+        line-height: 1.4;
+      }
+
+      /* PRODUCT */
+      .product {
+        border: 4px solid black;
+        width: 825px;
+        margin: 50px auto;
+        position: relative;
+      }
+
+      .product-title {
+        text-align: center;
+        font-size: 22px;
+        text-transform: uppercase;
+        background-color: #f7f7f7;
+        padding: 15px;
+      }
+
+      /* PRODUCT INFORMATION */
+      .price {
+        font-size: 24px;
+      }
+
+      .shipping {
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #777;
+        margin-bottom: 20px;
+      }
+
+      .sale {
+        background-color: #ec2f2f;
+        color: #fff;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding: 7px 15px;
+        display: inline-block;
+        position: absolute;
+        top: -17px;
+        left: -38px;
+      }
+
+      .more-info:link,
+      .more-info:visited {
+        color: black;
+        margin-bottom: 30px;
+        display: inline-block;
+      }
+
+      .more-info:hover,
+      .more-info:active {
+        text-decoration: none;
+      }
+
+      .color {
+        background-color: #000;
+        height: 22px;
+        width: 22px;
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      .color-blue {
+        background-color: #2f6ee2;
+      }
+      .color-red {
+        background-color: #ec2f2f;
+      }
+      .color-yellow {
+        background-color: #f0bf1e;
+      }
+      .color-green {
+        background-color: #90cc20;
+      }
+      .color-brown {
+        background-color: #885214;
+      }
+
+      /* PRODUCT DETAILS */
+      .details-title {
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-bottom: 15px;
+        margin-top: 30px;
+      }
+
+      .details-list {
+        list-style: square;
+        margin-left: 20px;
+      }
+
+      .details-list li {
+        margin-bottom: 10px;
+      }
+
+      /* BUTTON */
+      .add-cart {
+        background-color: #000;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding: 15px;
+        width: 100%;
+        border-top: 4px solid black;
+      }
+
+      .add-cart:hover {
+        color: #000;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="product">
+      <h2 class="product-title">
+        Casio CTK-3500 61-Key Portable Keyboard with Piano tones, Black
+      </h2>
+      <img
+        src="data:image/jpeg;base64,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xOei16M8thpbQcTvVPcixbLbjKPfe/GTX3br8TuU9oggc8EuLZic9FqLWzy2GltBxKt9yHFstuMot978ZLfduvxO5T4iCA+5BivaUfpJvsV53H8V7Wj9JL9ip9RBAY4IcW7Sj9JN9ivRwQ4r2lH6Sb7FT2iCBzwS4r4dD5832Stdx/Fe1pPSTfYqfUQQF3H8V7Wj9JN9incfxbtqP0k32Kn1EEBdx/Fu2pPSTfYr3uP4t21J6Sb7FT4iCAu4/i3bUfpJvsU7j2LdtR+km+xU+oggLuPYt21H6Sb7Fedx3Fe2o/STfYqfkQQD3HcV7aj9JN9incbxU3Bmoxoe/mPRp+RU/IggDuPYt21J6Sb7FStwb7OS4fQCGdzHSl73vLCS3nEBtiQCea1vQupRAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQf/2Q=="
+        alt="Casio Ctk 3500 keyboard"
+        height="250"
+        width="250"
+      />
+      <p class="price"><strong>$180.00</strong></p>
+      <p class="shipping">Free shipping</p>
+      <p class="sale">Sale</p>
+
+      <p class="product-description">
+        Ready to play this touch sensative keyboard keyboard essentials.
+      </p>
+      <a
+        href="https://www.casio.com/intl/electronic-musical-instruments/support.CTK-3500/"
+        target="_blank"
+        class="more-info"
+        >More information →</a
+      >
+
+      <div class="colors">
+        <div class="color"></div>
+        <div class="color color-blue"></div>
+        <div class="color color-red"></div>
+        <div class="color color-yellow"></div>
+        <div class="color color-green"></div>
+        <div class="color color-brown"></div>
+      </div>
+
+      <h3 class="details-title">Product details</h3>
+      <ul class="details-list">
+        <li>It has a 61-key piano-style touch-sensitive keyboard</li>
+        <li>It includes a Dance Music Mode.</li>
+        <li>
+          It has an input/output, a sustain jack, a headphone jack, and can be
+          connected to the Chordata Play app.
+        </li>
+      </ul>
+      <button class="add-cart">Add to cart</button>
+    </article>
+  </body>
+</html>
